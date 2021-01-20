@@ -1,7 +1,7 @@
-- id: refmt
-  name: refmt
+id: ocp-indent
+  name: ocp-indent
   description: Re-indent Reason code
-  entry: refmt
+  entry: ocp-indent
   language: system
   files: "\\.rei?$"
   args: ["-i"]
