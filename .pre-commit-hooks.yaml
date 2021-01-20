@@ -1,7 +1,7 @@
-- id: ocp-indent
-  name: ocp-indent
-  description: Re-indent OCaml code
-  entry: ocp-indent
+- id: refmt
+  name: refmt
+  description: Re-indent Reason code
+  entry: refmt
   language: system
-  files: "\\.mli?$"
+  files: "\\.rei?$"
   args: ["-i"]
